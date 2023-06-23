@@ -1,0 +1,30 @@
+.App {
+  display: flex;
+  background-color: #d2dbdd;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  font-size: 4rem;
+}
+
+.clock {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/*
+body{
+     background-color: #d2dbdd;
+}
+div{
+     width: 100%;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center; 
+     align-items: center;
+}
+*/
