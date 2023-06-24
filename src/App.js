@@ -1,8 +1,8 @@
-import { CounterApp, GetTimeApp, DigitalClock, Event } from './components/index';
+import { CounterApp, GetTimeApp, DigitalClock, Event, FormExample } from './components/index';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <header className="App-header">
         {/* Counter App UseState Hook Example */}
         {/* <CounterApp /> */}
@@ -14,9 +14,12 @@ function App() {
         {/* <DigitalClock /> */}
 
         {/* Handling Events */}
-        <Event />
+        {/* <Event /> */}
+
+        {/* Submit data from one input field */}
+        <FormExample/>
       </header>
-    </div>
+    </>
   );
 }
 
