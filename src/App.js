@@ -1,4 +1,4 @@
-import { CounterApp, GetTimeApp, DigitalClock, Event, FormExample } from './components/index';
+import { CounterApp, GetTimeApp, DigitalClock, Event, FormExample, FormExample2 } from './components/index';
 
 function App() {
   return (
@@ -17,7 +17,10 @@ function App() {
         {/* <Event /> */}
 
         {/* Submit data from one input field */}
-        <FormExample/>
+        {/* <FormExample/> */}
+
+        {/* Submit data from more than one input field */}
+        <FormExample2 />
       </header>
     </>
   );
