@@ -17,31 +17,33 @@ function FormExample2() {
     setFullName(name+" "+lname);
   };
   return (
-    <div class="center">
-     <form onSubmit={onSubmits}>
-          <h1>Hello, {fullName}</h1>
-          <div class="inputbox">
-          <input
-               type="text"
-               required="required"
-               onChange={updateName}
-               value={name}
-          />
-          <span>First Name</span>
-          </div>
-          <div class="inputbox">
-          <input
-               type="text"
-               required="required"
-               onChange={updateLname}
-               value={lname}
-          />
-          <span>Last Name</span>
-          </div>
-          <div class="inputbox">
-          <input type="submit" />
-          </div>
-     </form>
+    <div className="main">
+      <div class="center">
+      <form onSubmit={onSubmits}>
+            <h1>Hello, {fullName}</h1>
+            <div class="inputbox">
+            <input
+                type="text"
+                required="required"
+                onChange={updateName}
+                value={name}
+            />
+            <span>First Name</span>
+            </div>
+            <div class="inputbox">
+            <input
+                type="text"
+                required="required"
+                onChange={updateLname}
+                value={lname}
+            />
+            <span>Last Name</span>
+            </div>
+            <div class="inputbox">
+            <input type="submit" />
+            </div>
+      </form>
+      </div>
     </div>
   );
 }

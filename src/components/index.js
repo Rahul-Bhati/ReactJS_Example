@@ -5,3 +5,5 @@ export { default as Event } from './EventExample/Event';
 export { default as FormExample } from './FormExample/FormExample';
 export { default as FormExample2 } from './FormExample/FormExample2';
 export { default as FormExample3 } from './FormExample/FormExample3';
+export { default as SpreadExample } from './SpreadExample/SpreadExample';
+export { default as ToDOListExample } from './ToDOListExample/ToDOListExample';

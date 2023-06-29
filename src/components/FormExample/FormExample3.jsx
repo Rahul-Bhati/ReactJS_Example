@@ -31,33 +31,35 @@ function FormExample3() {
     event.preventDefault() ;
   };
   return (
-    <div class="center">
-     <form onSubmit={onSubmits}>
-          <h1>Hello, {fullName.fname} {fullName.lname}</h1>
-          <div class="inputbox">
-          <input
-               type="text"
-               required="required"
-               onChange={update}
-               name = 'fname'
-               value={fullName.fname}
-          />
-          <span>First Name</span>
-          </div>
-          <div class="inputbox">
-          <input
-               type="text"
-               required="required"
-               name="lname"
-               onChange={update}
-               value={fullName.lname}
-          />
-          <span>Last Name</span>
-          </div>
-          <div class="inputbox">
-          <input type="submit" />
-          </div>
-     </form>
+    <div className="main">
+      <div class="center">
+      <form onSubmit={onSubmits}>
+            <h1>Hello, {fullName.fname} {fullName.lname}</h1>
+            <div class="inputbox">
+            <input
+                type="text"
+                required="required"
+                onChange={update}
+                name = 'fname'
+                value={fullName.fname}
+            />
+            <span>First Name</span>
+            </div>
+            <div class="inputbox">
+            <input
+                type="text"
+                required="required"
+                name="lname"
+                onChange={update}
+                value={fullName.lname}
+            />
+            <span>Last Name</span>
+            </div>
+            <div class="inputbox">
+            <input type="submit" />
+            </div>
+      </form>
+      </div>
     </div>
   );
 }

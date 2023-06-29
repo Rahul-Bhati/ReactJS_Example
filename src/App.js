@@ -1,4 +1,4 @@
-import { CounterApp, GetTimeApp, DigitalClock, Event, FormExample, FormExample2, FormExample3 } from './components/index';
+import { CounterApp, GetTimeApp, DigitalClock, Event, FormExample, FormExample2, FormExample3,SpreadExample, ToDOListExample } from './components/index';
 
 function App() {
   return (
@@ -23,7 +23,13 @@ function App() {
         {/* <FormExample2 /> */}
 
         {/* Retriveing Data using Object.it is simple than prev method. */}
-        <FormExample3/>
+        {/* <FormExample3/> */}
+
+        {/* Uses of Spread Operater */}
+        {/* <SpreadExample/> */}
+
+        {/* React TO-DO List Project */}
+        <ToDOListExample />
       </header>
     </>
   );
