@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import List from "./List";
 import './ToDOListExample.css' ;
+import AddIcon from "@material-ui/icons/Add";
 
 export default function ToDOListExample() {
      const [item, setItem] = useState();
@@ -39,7 +40,9 @@ export default function ToDOListExample() {
                value={item}
                onChange={updateItem}
              />
-             <button onClick={updateItems}>+</button>
+             <button onClick={updateItems}>
+              <AddIcon/>
+              </button>
      
              <ol>
                {items.map((val, key) => {

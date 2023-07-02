@@ -1,4 +1,4 @@
-import { CounterApp, GetTimeApp, DigitalClock, Event, FormExample, FormExample2, FormExample3,SpreadExample, ToDOListExample } from './components/index';
+import { CounterApp, GetTimeApp, DigitalClock, Event, FormExample, FormExample2, FormExample3,SpreadExample, ToDOListExample, Accordion } from './components/index';
 
 function App() {
   return (
@@ -29,7 +29,10 @@ function App() {
         {/* <SpreadExample/> */}
 
         {/* React TO-DO List Project */}
-        <ToDOListExample />
+        {/* <ToDOListExample /> */}
+
+        {/* React Accordian Example */}
+        <Accordion />
       </header>
     </>
   );
