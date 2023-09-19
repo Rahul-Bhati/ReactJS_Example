@@ -32,7 +32,9 @@ function App() {
         {/* <ToDOListExample /> */}
 
         {/* React Accordian Example */}
-        <Accordion />
+        {/* <Accordion /> */}
+
+        <h1>Hello Github</h1>
       </header>
     </>
   );
