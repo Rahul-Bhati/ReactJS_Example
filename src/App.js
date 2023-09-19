@@ -31,31 +31,7 @@ function App() {
         {/* <ToDOListExample /> */}
 
         {/* React Accordian Example */}
-        {/* <Accordion /> */}
-
-       {/* Without createContext Example */}
-       {/* <WithoutContext/> */}
-
-       {/* With createContext Example */}
-        {/* <WithContext/> */}
-
-        {/* consumer m jo call back hell use rokne k liye useContext hook use krte h */}
-        {/* <WithUseContext/> */}
-
-        {/* useEffect examples */}
-        {/* <UseEffectExample/> */}
-
-        {/* Hook Example : Title change using use Effect Hook  */}
-        {/* <TitleChange/> */}
-
-        {/* Pokemon API called using AXIOS */}
-        {/* <PokemonAPI/> */}
-
-        {/* React Router Dom Example */}
-        <RouterExample/>
-
-        {/* 404 Page using React */}
-
+        <Accordion />
       </header>
     </>
   );
