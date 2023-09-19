@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate  } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Contact from "./Contect";
@@ -18,7 +18,10 @@ function RouterExample() {
         <Route path="contact" element={<Contact />} />
         <Route path="user/:fname/:lname" element={<User />} />
         {/* for undefiend path show error page  */}
-        <Route path="*" element={<Error />} />
+        {/* <Route path="*" element={<Error />} /> */}
+
+        {/* error page show na karke sidha home pe redirect karna */}
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </div>
   );

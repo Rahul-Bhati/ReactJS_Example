@@ -31,7 +31,10 @@ function App() {
         {/* <ToDOListExample /> */}
 
         {/* React Accordian Example */}
-        <Accordion />
+        {/* <Accordion /> */}
+
+       {/* Router Example */}
+        <RouterExample/>
       </header>
     </>
   );
